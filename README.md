@@ -1,29 +1,22 @@
 # optim-techblog-vueexpressts-sample
 
-## Project setup
+## セットアップ
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+npm i
 ```
 
-### Compiles and minifies for production
+## Backend ビルド
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+npm run build:backend
 ```
 
-### Lints and fixes files
+
+## Frontend ビルド
 ```
-yarn run lint
+npm run build:frontend
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Run Server
+```
+npm run serve
+```
